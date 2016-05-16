@@ -1,56 +1,40 @@
-/* in case I didn't tell you yet - use this whenever you do anything */
-* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
-
-/* 
-
-This task doesn't require setting any widths and heights so don't. 
-You will never need any pixel values other than 10px.
-Well, all the exceptions to this are already written just below (width:960px and 100px)
-
-Your job is to set some margins, paddings and floats (spoiler: and then you get in trouble :) )
-
-Oh, and you don't need any more selectors here, but you can add some if you want.
-
-DO:
-1. change the text color after you look at the HTML and the image you're reproducing
-2. uncomment the borders 
-3. do what you need to fit the outlines
-4. get in trouble with footer and solve the problem
-
-*/
-
-body{
-	/* change this to some color to see the text. ever heard of RGBA? */
-	color: white;
+body {
+    font-family: sans-serif;
+    background: white;
+    font-size: 12px;
 }
 
-div.wrapper {
-	width: 960px center;
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+    overflow: auto;
+    text-align: center;
+}
+
+
+div.comtent {
+    width: 960px;
+    margin: auto;
+    
+}
+
+img{
+    display: block;
     margin:auto;
-    padding:10px;
-	border: 2px dotted yellow;
+    padding:30px;
+}
+
+.items li{
+    display: inline;
+    list-style-type: none;
+    font-size: 18px;
+    padding: 200px;
+    text-align: center;
 }
 
 
-div.content {
-    padding: center;
-    margin-left: 120px;
-    background: pink;
-}
-
-div.sidebar {
-	width: 100px;
-	border: 2px dotted yellow;
-    margin-top: 10px;
-    margin-bottom: 10px;
+section div{
     float:left;
-}
-
-
-header, footer {
-	border: 2px dotted yellow;
-    clear:both;
-
-
+    margin:auto;
 }
 
