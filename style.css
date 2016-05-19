@@ -1,20 +1,29 @@
 body {
-    font-family: sans-serif;
+    font-family:serif;
     background: white;
-    font-size: 12px;
 }
 
-.wrapper {
-    width: 960px;
+.search{
+    border: 1px solid;
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-left: 500px;
+    width:200px;
+    height:20px;
+    font-size: 18px;
+    
+    
+}
+
+.log{
+    float:right;
+    margin-top: 0px;
+}
+.content {
+    width: 400px;
     margin: 0 auto;
-    overflow: auto;
+     overflow: auto;
     text-align: center;
-}
-
-
-div.comtent {
-    width: 960px;
-    margin: auto;
     
 }
 
