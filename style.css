@@ -3,47 +3,106 @@ body {
     background: white;
 }
 
-.search{
-    border: 1px solid;
-    border-radius: 5px;
-    margin-top: 40px;
-    margin-left: 500px;
-    width:200px;
-    height:20px;
-    font-size: 18px;
+
+.header li {
+    width: 40px;
+    text-align: center;
+    display: inline;
+    list-style-type: none;
+    text-align: center;
+}
+.article{
+    
+    text-align: center;
+    width:800px;
+    margin:auto;
+    margin-top: 20px;
+    
+}
+
+.backpacker{
+    font-family:serif;
+    font-size: 50px;
+    margin-top: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     
     
 }
 
-.log{
-    float:right;
-    margin-top: 0px;
-}
-.content {
-    width: 400px;
-    margin: 0 auto;
-     overflow: auto;
-    text-align: center;
-    
-}
 
 img{
     display: block;
     margin:auto;
-    padding:30px;
+    padding:10px;
+    width;1280px;
+    height:800px;
 }
 
 .items li{
     display: inline;
     list-style-type: none;
     font-size: 18px;
-    padding: 75px;
+    padding: 30px;
     text-align: center;
 }
-
-
-section div{
-    float:left;
-    margin:auto;
+.search{
+    
+    margin-left:20px;
+    margin-right: 80px;
+    width:60px;
+    font-size: 16px;
+    float:right;
+    
 }
 
+.log{
+    margin-left: 20px;
+ 
+    float:right;
+   
+}
+a{
+    color:black;
+    text-decoration: none;
+}
+
+.photo-box{
+    width:400px;
+    height:300px;
+    background-size:cover;
+    float:left;
+    margin-left: auto;
+    margin-right: auto;
+    padding: auto;
+    margin-top: 30px;
+   
+
+}
+.photo1 {
+    background: transparent url("1.jpg") no-repeat center;
+    background-size: cover;
+  
+}
+
+.photo2 {
+    background: transparent url("2.jpeg") no-repeat center;
+        background-size: cover;
+}
+.photo3 {
+    background: transparent url("3.jpeg") no-repeat center;
+    background-size: cover;
+}
+.photo4 {
+    background: transparent url("4.jpeg") no-repeat center;
+    background-size: cover;
+}
+.photo5 {
+    background: transparent url("5.jpeg") no-repeat center;
+    background-size: cover;
+}
+.photo6 {
+    background: transparent url("6.jpeg") no-repeat center;
+    background-size: cover;
+}
