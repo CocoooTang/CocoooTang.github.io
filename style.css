@@ -11,12 +11,13 @@ body {
     list-style-type: none;
     text-align: center;
 }
+
 .article{
     
     text-align: center;
     width:800px;
     margin:auto;
-    margin-top: 20px;
+    margin-top: 15px;
     
 }
 
@@ -29,6 +30,7 @@ body {
     margin-right: auto;
     
     
+    
 }
 
 
@@ -36,21 +38,26 @@ img{
     display: block;
     margin:auto;
     padding:10px;
-    width;1280px;
-    height:800px;
+    width;1000px;
+    height:600px;
+    border-radius: 100px;
+	
 }
-
+.items{
+    margin:auto;
+    width:990px;
+}
 .items li{
     display: inline;
     list-style-type: none;
     font-size: 18px;
-    padding: 30px;
+    padding: 15px;
     text-align: center;
 }
 .search{
     
     margin-left:20px;
-    margin-right: 80px;
+    margin-right: 130px;
     width:60px;
     font-size: 16px;
     float:right;
@@ -58,7 +65,7 @@ img{
 }
 
 .log{
-    margin-left: 20px;
+    margin-left: 10px;
  
     float:right;
    
@@ -79,6 +86,9 @@ a{
     margin-top: 30px;
    
 
+}
+.photo{
+    margin-left: 30px;
 }
 .photo1 {
     background: transparent url("1.jpg") no-repeat center;
