@@ -1,100 +1,166 @@
 body {
-    font-family:serif;
+   font-family: 'Muli', sans-serif;
     margin: 0px;
 }
 
-.article{
-    
-    text-align: center;
-    width:60px;
-    margin:0px;
-    margin-top: 15px;
-    padding-bottom: 3px;
-}
-
-.backpacker{
-    font-family:serif;
-    font-size: 50px;
-    margin-top: 10px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    color: white;
-    
-    
-    
-}
 .content{
-     width:920px;
+    width:1280px;
     margin: 0px;
 }
 
 img{
     
     width;1280px;
-    height:630px;
+    height:628px;
     opacity:0.6;
+    margin-left: 30px;
      
 }
+h2{
+    position:absolute;
+    top:200px;
+    left:680px;
+    width:580px;
+    display: block;
+    border: 1px solid white;
+}
 
+
+h2 span{
+    color:white;
+    font: serif;
+    font-size: 30px;
+    background: rgba(0,0,0,0.5);
+        
+}
+span#backpacker{
+    width:20px;
+    margin-right: 10px;
+    margin-left:0px;
+    font-size: 30px;
+    border:1px solid black;
+    padding:3px;
+    
+}
 .items{
     margin:auto;
-    width:990px;
+    width:1280px;
     color:black;
 }
 .items li{
     display: inline;
     list-style-type: none;
     font-size: 18px;
-    padding: 15px;
+    padding: 5px;
     text-align: center;
     
     
 }
 .search{
-    
     margin-left:20px;
     margin-right: 130px;
     width:60px;
     font-size: 16px;
     float:right;
-    color: white;
+    color: black;
     
 }
 
-.log{
+.log {
     margin-left: 10px;
- 
     float:right;
    
+}
+
+.log a{
+    color:black;
+    text-decoration: none;
+}
+.log a:hover {
+    color: gray;
 }
 a{
     color:black;
     text-decoration: none;
 }
+a:hover {
+    color: gray;
+}
+
+
+.article{
+    width:900px;
+    border:1px solid lightgray;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding:10px;
+    font-size: 30px;
+    text-align: right;
+    
+}
+
+.article a{
+    
+    
+}
+.article p1 {
+    display: block;
+}
+.article:hover p1 {
+    display: none;
+    transition: 2s;
+}
+.article p2 {
+    display: none;
+}
+.article:hover p2 {
+    display: block;
+    transition: 2s;
+}
 
 .photo-box{
     width:350px;
-    height:300px;
+    height:350px;
     background-size:cover;
     float:left;
-    margin-left: 10px;
+    margin-left: 15px;
     margin-right: auto;
-    margin-top: 10px;
+    margin-top: 15px;
     padding: auto;
-    
-   
-
+    opacity: 0.8;
+    overflow: visible;
 }
+
 .photo{
     margin: auto;
-    width:1100px;
+    width:1095px;
     
+}
+.change{}
+.photo-box:hover{
+    opacity:0.5;
+    width:
+}
+
+
+.photo-box p {
+    display: none;
+    
+}
+.photo-box:hover p {
+    display: block;
+    padding-top:120px;
+    padding-left: 120px;
+    
+}
+.text-content{
+    font-size: 30px;
 }
 .photo1 {
     background: transparent url("1.jpg") no-repeat center;
-    background-size: cover;
-  
+    background-size: cover; 
 }
 
 .photo2 {
@@ -103,7 +169,8 @@ a{
 }
 .photo3 {
     background: transparent url("3.jpeg") no-repeat center;
-    background-size: cover;
+background-size: cover;
+
 }
 .photo4 {
     background: transparent url("4.jpeg") no-repeat center;
@@ -117,32 +184,162 @@ a{
     background: transparent url("6.jpeg") no-repeat center;
     background-size: cover;
 }
+.photo7 {
+    background: transparent url("11.jpeg") no-repeat center;
+    background-size: cover;
+}
+.photo8 {
+    background: transparent url("12.jpeg") no-repeat center;
+    background-size: cover;
+}
+.photo9 {
+    background: transparent url("13.jpeg") no-repeat center;
+    background-size: cover;
+}
+.photo10 {
+    background: transparent url("14.jpeg") no-repeat center;
+    background-size: cover;
+}
+.photo11 {
+    background: transparent url("15.jpeg") no-repeat center;
+    background-size: cover;
+}
+.photo12 {
+    background: transparent url("16.jpeg") no-repeat center;
+    background-size: cover;
+}
 
-h1{
-    position:absolute;
-    top: 10px;
-    left:450px;
+.photo20 {
+    background: transparent url("555.jpeg") no-repeat center;
+    background-size: cover;
+}
+.photo21 {
+    background: transparent url("444.jpeg") no-repeat center;
+    background-size: cover;
+}
+.photo22 {
+    background: transparent url("13.jpeg") no-repeat center;
+    background-size: cover;
+}
+.photo23 {
+    background: transparent url("14.jpeg") no-repeat center;
+    background-size: cover;
+}
+.photo24 {
+    background: transparent url("15.jpeg") no-repeat center;
+    background-size: cover;
+}
+.photo25 {
+    background: transparent url("16.jpeg") no-repeat center;
+    background-size: cover;
+}
+
+.bottom li{
+    display: inline;
+    list-style-type: none;
+    font-size: 18px;
+    padding: 5px;
+   
+}
+.bottom{
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+    float: left;
+    text-align: center;
+}
+
+.bottom a{
+    padding-left:640px;
+}
+
+h0{
+    text-decoration: underline;
+}
+
+.tip-image{
+    width:1280px;
+   
+}
+.information{
     display: block;
+    border:1px solid black;
+    margin:50px;
+    padding:30px;
+}
+.text-content2{
+    font-size: 18px;
+    text-align: center;
+}
+.photo-box1 p1 {
+    display: none;
     
+}
+.photo-box1:hover p1 {
+    display: block;
+   margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+.photo-box1{
+    width:350px;
+    height:350px;
+    background-size:cover;
+    float:left;
+    margin-left: 15px;
+    margin-right: auto;
+    margin-top: 15px;
+    padding: auto;
+    opacity: 0.8;
+    overflow: visible;
+}
+
+.photo-c{
+    margin: auto;
+    width:1095px;
+    
+}
+
+
+
+body.1{
+    margin: 0px;
+    font-family: 'Muli', sans-serif;
+    
+}
+img.different{
+    margin-left: 0px;
+    width;1280px;
+    height:630px;
+    opacity:0.6;
+    
+     
+}
+
+h5{
+    position:absolute;
+    top: 160px;
+    left:250px;
+    display: block;
+    border:1px solid black;
+    border-radius: 5px;
     padding: 5px;
     
+    
 }
-h1 span{
+h5 span{
     color:black;
     font:sans-serif;
-
+    font-size: 80px;
 }
 
-a{
-    color:white;
+a.2{
+    color:black;
     text-decoration: none;
+    
+    
 }
-a:hover {
-    color: black;
+a.2:hover {
+    color: gray;
 }
 
-h2 span{
-    color:white;
-    font: sans-serif;
-    font-size: 30px;
-    background: rgba(0,0,0,0.4);
